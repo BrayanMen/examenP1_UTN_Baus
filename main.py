@@ -38,11 +38,11 @@ def main():
             case "5":
                 filtro = validar_input_filtro()
                 filtrar_por_tipo(bicicletas_cargadas,filtro)
-                mostrar_lista(bicicletas_cargadas)
             case "6":
                 informar_promedio(bicicletas_cargadas)
             case "7":
                 ordenar_bicicletas_doble_criterio(bicicletas_cargadas, "tipo", "tiempo")
+                mostrar_lista(bicicletas_cargadas)
             case "8":
                 nombre_json = input("Ingresar nombre para archivo JSON: ")
                 guardar_archivo_json(bicicletas_cargadas, nombre_json)
