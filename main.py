@@ -37,7 +37,8 @@ def main():
                 mostrar_lista(ganador_carrera(bicicletas_cargadas))
             case "5":
                 filtro = validar_input_filtro()
-                mostrar_lista(filtrar_por_tipo(bicicletas_cargadas,filtro))
+                filtrar_por_tipo(bicicletas_cargadas,filtro)
+                mostrar_lista(bicicletas_cargadas)
             case "6":
                 informar_promedio(bicicletas_cargadas)
             case "7":
